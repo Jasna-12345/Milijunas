@@ -1,1 +1,68 @@
-<mxfile host="app.diagrams.net" modified="2021-01-08T08:44:15.132Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36 Edg/87.0.664.66" version="14.1.8" etag="vndcvQcGy4q7NZYjGOm3" type="github"><diagram id="r1og0uCHNFm6T4KjdNjF">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-01-08T08:51:00.924Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36 Edg/87.0.664.66" etag="Y0kjP8qPcnjkGc9kiEl3" version="14.1.8" type="github" pages="2">
+  <diagram id="r1og0uCHNFm6T4KjdNjF" name="Page-1">
+    <mxGraphModel dx="957" dy="542" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="4kmgBPgbUo3qxSBK6bsD-1" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="110" y="60" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4kmgBPgbUo3qxSBK6bsD-2" value="Igranje Milijunaša" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="130" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="4kmgBPgbUo3qxSBK6bsD-3" value="Unos igrača" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="90" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="4kmgBPgbUo3qxSBK6bsD-4" value="" style="endArrow=none;html=1;" edge="1" parent="1" source="4kmgBPgbUo3qxSBK6bsD-1" target="4kmgBPgbUo3qxSBK6bsD-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="310" as="sourcePoint" />
+            <mxPoint x="440" y="260" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4kmgBPgbUo3qxSBK6bsD-6" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;" edge="1" parent="1" source="4kmgBPgbUo3qxSBK6bsD-2">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="350" y="110" as="sourcePoint" />
+            <mxPoint x="510" y="110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4kmgBPgbUo3qxSBK6bsD-7" value="Postavljanje pitanja" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="210" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="4kmgBPgbUo3qxSBK6bsD-8" value="Odgovor na pitanje" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="300" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="4kmgBPgbUo3qxSBK6bsD-9" value="Izračun osvojenog iznosa" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="370" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="4kmgBPgbUo3qxSBK6bsD-10" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;entryX=0.311;entryY=0.045;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.96;exitY=0.708;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="4kmgBPgbUo3qxSBK6bsD-2" target="4kmgBPgbUo3qxSBK6bsD-7">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="408.76991100065175" y="155.98620526449486" as="sourcePoint" />
+            <mxPoint x="520" y="120" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4kmgBPgbUo3qxSBK6bsD-11" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;entryX=0.006;entryY=0.279;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.642;exitY=0.994;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="4kmgBPgbUo3qxSBK6bsD-2" target="4kmgBPgbUo3qxSBK6bsD-8">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="269.99991100065176" y="285.98620526449486" as="sourcePoint" />
+            <mxPoint x="381.23" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4kmgBPgbUo3qxSBK6bsD-12" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;entryX=0.454;entryY=-0.058;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="4kmgBPgbUo3qxSBK6bsD-2" target="4kmgBPgbUo3qxSBK6bsD-9">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="219.99991100065174" y="299.99620526449485" as="sourcePoint" />
+            <mxPoint x="331.23" y="264.01" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="1D83XkJCZ689sOul0O0H" name="Page-2">
+    <mxGraphModel dx="957" dy="542" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="8BKieX1xrE59y4DQv1cV-0" />
+        <mxCell id="8BKieX1xrE59y4DQv1cV-1" parent="8BKieX1xrE59y4DQv1cV-0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
